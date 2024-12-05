@@ -12,7 +12,8 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body class="d-flex flex-column min-vh-100">
+<body >
+    <div class="container-fluid d-flex flex-column min-vh-100">
     <header
         class="d-flex flex-wrap justify-content-between align-items-center py-3 mb-0 bg-dark text-white border-bottom px-4">
         <div>
@@ -35,24 +36,30 @@
         <main class="p-3 flex-grow-1">
             <h2 class="h4">Productos Destacados</h2>
             <section
-                class="row row-cols-sm-1 row-cols-sm-2 row-cols-sm-3 row-cols-sm-4 row-cols-md-5 row-cols-lg-6 g-4">
+                class="row  row-cols-2 row-cols-sm-3 row-cols-md-5 row-cols-lg-6">
                 <article class="col">
-                    <div class="card h-100">
+                    <div class="card h-150 w-150">
                         <img src="https://via.placeholder.com/150" class="card-img-top" alt="Producto 1">
                         <div class="card-body">
                             <h3 class="card-title h6 text-center">Product 1</h3>
                             <p class="card-text">$20.00</p>
-                            <button class="btn btn-primary  ">Add to card</button>
+                            <div class="d-grid" style="max-width: 100px; margin: 0 auto;">
+                                <button class="btn btn-primary" >Add to cart</button>
+
+                            </div>
                         </div>
                     </div>
                 </article>
                 <article class="col">
-                    <div class="card h-100">
+                    <div class="card h-150 w-150">
                         <img src="https://via.placeholder.com/150" class="card-img-top" alt="Producto 2">
                         <div class="card-body">
                             <h3 class="card-title h6 text-center">Product 2</h3>
                             <p class="card-text">$15.00</p>
-                            <button class="btn btn-primary ">Add to card</button>
+                            <div class="d-grid" style="max-width: 100px; margin: 0 auto;">
+                                <button class="btn btn-primary" style="size: 9px;">Add to cart</button>
+
+                            </div>
                         </div>
                     </div>
                 </article>
@@ -62,7 +69,10 @@
                         <div class="card-body">
                             <h3 class="card-title h6 text-center">Product 3</h3>
                             <p class="card-text">$30.00</p>
-                            <button class="btn btn-primary ">Add to card</button>
+                            <div class="d-grid" style="max-width: 100px; margin: 0 auto;">
+                                <button class="btn btn-primary" >Add to cart</button>
+
+                            </div>
                         </div>
                     </div>
                 </article>
@@ -72,7 +82,10 @@
                         <div class="card-body">
                             <h3 class="card-title h6 text-center">Product 4</h3>
                             <p class="card-text">$25.00</p>
-                            <button class="btn btn-primary ">Add to card</button>
+                            <div class="d-grid" style="max-width: 100px; margin: 0 auto;">
+                                <button class="btn btn-primary" >Add to cart</button>
+
+                            </div>
                         </div>
                     </div>
                 </article>
@@ -82,7 +95,10 @@
                         <div class="card-body">
                             <h3 class="card-title h6 text-center">Product 5</h3>
                             <p class="card-text">$18.00</p>
-                            <button class="btn btn-primary ">Add to card</button>
+                            <div class="d-grid" style="max-width: 100px; margin: 0 auto;">
+                                <button class="btn btn-primary" >Add to cart</button>
+
+                            </div>
                         </div>
                     </div>
                 </article>
@@ -92,7 +108,9 @@
                         <div class="card-body">
                             <h3 class="card-title h6 text-center">Product 6</h3>
                             <p class="card-text">$35.00</p>
-                            <button class="btn btn-primary ">Add to card</button>
+                            <div class="d-grid" style="max-width: 100px; margin: 0 auto;">
+                                <button class="btn btn-primary" >Add to cart</button>
+                            </div>
                         </div>
                     </div>
                 </article>
@@ -101,8 +119,12 @@
     </div>
 
     <footer class="py-3 bg-light text-center border-top">
-        <p class="text-muted mb-0">&copy; 2024 Tienda Online. Todos los derechos reservados.</p>
+        <div class="row">
+            <p class="text-muted mb-0">&copy; 2024 Tienda Online. Todos los derechos reservados.</p>
+
+        </div>
     </footer>
+    </div>
 </body>
 
 </html>
